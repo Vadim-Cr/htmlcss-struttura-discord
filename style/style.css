@@ -46,8 +46,8 @@ h1{
 /* main */
 
     /* I sezione con immagine + testo */
+        /* regole per i container divisi a metà */
 .container{
-    /*  */
     display: flex;
     padding: 30px 0 30px 0;
 }
@@ -58,14 +58,53 @@ h1{
     background-color: rgb(150, 187, 175);
 }
 .image{
-    width: 35%;
+
     margin: auto;
+    height: 250px;
+    width: 250px;
+    background-color: deeppink;
 }
 .text{
     width: 35%;
     margin: auto;
 }
+    /* regole per il container in colonna */
+.container-column{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+}
+.text-column{
+   width: 80%;
+   margin: auto; 
+   text-align: center;
+}
+.image-column{
+    height: 400px;
+    width: 400px;
+    background-color: beige;
+    margin-top: 20px;
+}
 
+/* regole per il testo verso la fine */
+h3{
+    text-align: center;
+    padding: 30px;
+}
+#per-mac{
+display: flex;
+flex-direction: column;
+}
+#per-mac button{
+    width: 12%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 75px;
+}
+
+/* regole per il footer */
 
 /* debug */
 
