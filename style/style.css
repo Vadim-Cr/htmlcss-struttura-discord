@@ -11,24 +11,51 @@ body{
 }
 /* header parte navbar - jumbotron */
 nav{
-    display: flex;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
 }
 
 .navigation-bar{
     display: flex;
     list-style-type: none;
-
-    
+    justify-content: space-around;
+    align-items: center;
+    gap: 3em;
 }
+/* header parte 2 Titolo e testo e i due "buttons" */
+
+.head-section{
+    text-align: center;
+}
+
+h1{
+    margin-top: 70PX;
+    font-size: 30PX;
+    color: white;
+}
+
+.p-header{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    margin: 30px auto 15px  ;
+}
+
+
+
+
+
 
 /* debug */
 
 header{
-    min-height: 300px;
-    background-color: cadetblue;
+    min-height: 340px;
+    background-color: rgb(9, 42, 125);
 }
 
 nav{
-    min-height: 100px;
+    /* min-height: 50px; */
     background-color: chocolate;
 }
