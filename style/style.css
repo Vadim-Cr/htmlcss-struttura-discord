@@ -105,6 +105,40 @@ flex-direction: column;
 }
 
 /* regole per il footer */
+footer{
+    background-color: darkslategrey;
+}
+
+#container-footer{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#container-footer ul{
+list-style-type: none;
+height: 150px;
+width: 150px;
+background-color: aliceblue;
+}
+
+/* regole "br", logo sotto e tasto sotto */
+hr{
+    border: 2px solid gray;
+    width: 80%;
+    margin: auto;
+}
+
+#last-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+
+}
 
 /* debug */
 
