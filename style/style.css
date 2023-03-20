@@ -43,9 +43,28 @@ h1{
     margin: 30px auto 15px  ;
 }
 
+/* main */
 
-
-
+    /* I sezione con immagine + testo */
+.container{
+    /*  */
+    display: flex;
+    padding: 30px 0 30px 0;
+}
+.container-row-reverse{
+    display: flex;
+    padding: 30px 0 30px 0;
+    flex-direction: row-reverse;
+    background-color: rgb(150, 187, 175);
+}
+.image{
+    width: 35%;
+    margin: auto;
+}
+.text{
+    width: 35%;
+    margin: auto;
+}
 
 
 /* debug */
@@ -58,4 +77,10 @@ header{
 nav{
     /* min-height: 50px; */
     background-color: chocolate;
+}
+main{
+    background-color: rgb(31, 130, 53);
+}
+.container{
+    background-color: burlywood;
 }
